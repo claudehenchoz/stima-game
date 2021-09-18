@@ -1,0 +1,107 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+hinting = 0
+font_path = "res://data/fonts/FiraCode-Regular.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 80
+font_data = SubResource( 1 )
+
+[node name="Main" type="Node2D"]
+
+[node name="0_5" type="Button" parent="."]
+margin_left = 464.0
+margin_top = 896.0
+margin_right = 592.0
+margin_bottom = 1024.0
+rect_pivot_offset = Vector2( 78, 62 )
+custom_fonts/font = SubResource( 2 )
+text = "½"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="."]
+margin_left = 624.0
+margin_top = 896.0
+margin_right = 752.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="."]
+margin_left = 784.0
+margin_top = 896.0
+margin_right = 912.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Button" parent="."]
+margin_left = 944.0
+margin_top = 896.0
+margin_right = 1072.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Button" parent="."]
+margin_left = 1104.0
+margin_top = 896.0
+margin_right = 1232.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="8" type="Button" parent="."]
+margin_left = 1264.0
+margin_top = 896.0
+margin_right = 1392.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="question" type="Button" parent="."]
+margin_left = 1696.0
+margin_top = 896.0
+margin_right = 1792.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="question2" type="Button" parent="."]
+margin_left = 128.0
+margin_top = 896.0
+margin_right = 224.0
+margin_bottom = 1025.0
+rect_pivot_offset = Vector2( 87, 65 )
+custom_fonts/font = SubResource( 2 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
